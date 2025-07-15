@@ -59,7 +59,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
           }
 
           // Use default model if none is selected
-          const modelId = result.selectedModel || "eleven_multilingual_v2";
+          const modelId = result.selectedModel || "eleven_flash_v2_5";
           console.log("Using model:", modelId);
 
           // Send text to ElevenLabs API
@@ -160,7 +160,7 @@ function handleTextToSpeech(text, tabId) {
         return;
       }
 
-      const modelId = result.selectedModel || "eleven_multilingual_v2";
+      const modelId = result.selectedModel || "eleven_flash_v2_5";
       console.log("Securely calling API with model:", modelId);
 
       // Call the existing convertTextToSpeech function with the securely retrieved credentials

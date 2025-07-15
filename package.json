@@ -1,0 +1,17 @@
+{
+  "name": "webreader-extension",
+  "version": "1.0.0",
+  "description": "WebReader Chrome Extension - Convert text to speech using ElevenLabs",
+  "scripts": {
+    "build": "bash build.sh",
+    "build:windows": "build.bat",
+    "clean": "rm -rf webreader-production-build webreader-production-build.zip"
+  },
+  "keywords": [
+    "chrome-extension",
+    "text-to-speech",
+    "elevenlabs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

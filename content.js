@@ -609,7 +609,7 @@ window.testWebReader = function (text, apiKey, voiceId, modelId) {
       text: text || "This is a test of the WebReader extension.",
       apiKey: apiKey,
       voiceId: voiceId,
-      modelId: modelId || "eleven_multilingual_v2",
+      modelId: modelId || "eleven_flash_v2_5",
     },
     (response) => {
       if (chrome.runtime.lastError) {
