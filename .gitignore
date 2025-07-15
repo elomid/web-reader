@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Build output
+/dist
+/build
+/webreader-production-build
+
+# Package files
+*.zip
+*.crx
+*..zip
+*.pem
